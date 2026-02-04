@@ -14,5 +14,13 @@ public class Program {
 
         System.out.println("Itens da bolsa ninja: ");
         bolsaNinja.mostrarFerramentas();
+
+        BolsaNinja<Object> bolsa2 = new BolsaNinja<>();
+        bolsa2.adicionarFerramenta(new Kunai("Kunai Explosiva"));
+        bolsa2.adicionarFerramenta(new Shuriken(3));
+
+        System.out.println("Itens da bolsa ninja: ");
+        bolsa2.mostrarFerramentas();
+
     }
 }

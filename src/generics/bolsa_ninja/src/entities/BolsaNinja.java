@@ -6,12 +6,12 @@ import java.util.List;
 public class BolsaNinja<T> {
 
     // inicializar o array
-    private List<T> ferramentas;
+    private List<T> ferramentas = new ArrayList<>();
 
     // construtor
-    public BolsaNinja() {
-        this.ferramentas = new ArrayList<>();
-    }
+//    public BolsaNinja() {
+//        this.ferramentas = new ArrayList<>();
+//    }
 
     // colocar ferramentas na lista
     public void adicionarFerramenta(T ferramenta) {

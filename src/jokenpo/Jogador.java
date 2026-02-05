@@ -1,4 +1,4 @@
-package jokempo;
+package jokenpo;
 
 public class Jogador {
 

@@ -1,14 +1,14 @@
-package jokempo;
+package jokenpo;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class Jokempo {
+public class Jokenpo {
 
     public static void main(String[] args) {
 
-        Jokempo jokempo = new Jokempo();
-        jokempo.runGame();
+        Jokenpo jokenpo = new Jokenpo();
+        jokenpo.runGame();
 
     }
 
@@ -18,7 +18,7 @@ public class Jokempo {
         Random random = new Random();
 
         while (true) {
-            System.out.println("=========== Jokempo =============");
+            System.out.println("=========== Jokenpo =============");
             System.out.println("1- PEDRA");
             System.out.println("2- PAPEL");
             System.out.println("3- TESOURA");

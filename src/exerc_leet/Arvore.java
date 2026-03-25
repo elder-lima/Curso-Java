@@ -1,5 +1,7 @@
 package exerc_leet;
 
+import java.util.Arrays;
+
 public class Arvore {
     public static void main(String[] args) {
 
